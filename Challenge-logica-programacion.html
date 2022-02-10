@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de mensajes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="Captura.PNG">
+</head>
+<body>
+  <h1 class="titulo"> Encriptador de mensajes </h1>
+
+  <main class="main">
+    <section class="box">
+      <h2> Mensaje para encriptar</h2>
+        <br>
+        <h3 for="input-texto">(No letras mayúsculas, acentos, ni carácteres especiales)</h3>
+        <input class="input" type="text" id="mensaje1" placeholder="Ingrese el texto aquí">
+        <input class="button" type="submit" value="Encriptar" id="Encriptar">
+        <input class="button" type="submit" value="Desencriptar" id="Desencriptar">
+    </section>
+  
+    <section class="box">
+      <h2 id="">Salida de Mensaje</h2>
+      <br>
+      <br>
+      <br>
+      <input class="input" type="text" id="input2"></input>
+      <button class="button" onclick="copiar()">!Copiar!</button>
+    </section>
+   
+  </main>
+  <footer class="footer">
+    <div>
+      <p>
+        Realizado por <a href="https://www.linkedin.com/in/johan-benavides-952a07227/" target="_blank">Johan Benavides</a>
+      </p>
+      
+    </div>
+  </footer>
+
+</body>
+
+<script src="funciones.js"></script>
+
+</html>

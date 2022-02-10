@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    background-image: url(wallpapertip_cybersecurity-wallpaper_486498\ \(1\).jpg);
+    font-family: 'Palatino Linotype',  sans-serif;
+  }
+  
+  .main {
+    padding-top: 20px;
+    width: 80vw;
+    margin: 30px  auto 30px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulo {
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 15px;
+    width: auto;
+    margin: 5px;
+    color: rgb(34, 213, 226);
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  h2 {
+    background-color: rgba(0, 0, 0, 0.904);
+    text-align: center;
+    padding: 5px 0;
+    color: rgb(34, 213, 226);
+    font-size: 45px;
+
+  }
+
+  h3 {
+    background-color: rgba(0, 0, 0, 0.904);
+    text-align: center;
+    padding: 5px 0;
+    color: rgb(46, 100, 172); 
+    font-size: 25px;
+ }
+  
+  .box {
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 768px;
+    height: 576px;
+  }
+  
+  .button  {
+    font-family: 'Palatino Linotype',  sans-serif;
+    border: 0;
+    color: rgb(7, 3, 43);
+    background-color: rgb(46, 98, 146);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+  }
+  
+    .button:hover {
+    background-color: rgba(16, 104, 67, 0.829);
+    cursor: pointer;
+    transition: all 0.6s;
+    color: rgba(226, 226, 226, 0.938);
+  } 
+  
+  .input {
+    font-family:'Palatino Linotype',  sans-serif;
+    background-color: rgba(245, 245, 245, 0.863) ;
+    padding: 0.10em;
+    width: 100%;
+    height: 20%;
+    font-size: 55px;
+  }
+  
+  .input::placeholder {
+    font-size: 35px;
+    text-align: center;
+    padding: 0.10em;
+    line-height: 100%;
+    color: rgb(104, 104, 104);
+    font-family: 'Comfortaa',  sans-serif;
+  }
+  
+  .footer div {
+    background-color: rgba(0, 0, 0, 0.541);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+  
+  .footer div p {
+    text-align: center;
+    height: 100%;
+    line-height: 40px;
+    color:rgb(226, 242, 243);
+    font-size: 20px;
+  }
+  
+  .footer div p a {
+    text-decoration: none;
+    color:rgb(34, 213, 226);
+  }
+  
+  .footer div p a:hover {
+    color: rgb(133, 139, 221);
+    
+  }
+  
+ 
+  
